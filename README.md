@@ -38,17 +38,6 @@ To use with your Models add the `mixins` attribute to the definition object of y
   },
 ```
 
-There are a number of configurable options to the mixin. You can specify alternative property names for `deletedAt` and `_isDeleted`, as well as configuring deletion to "scrub" the entity. If true, this sets all but the "id" fields to null. If an array, it will only scrub properties with those names.
-
-```json
-  "mixins": {
-    "SoftDelete": {
-      "deletedAt": "deletedOn",
-      "_isDeleted": "isDeleted",
-      "scrub": true,
-    },
-  },
-```
 
 Retrieving deleted entities
 ---------------------------
