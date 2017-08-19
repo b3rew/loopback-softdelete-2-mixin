@@ -6,8 +6,8 @@
         "scope": null,
         "escapedName": "loopback-softdelete-2-mixin",
         "name": "loopback-softdelete-2-mixin",
-        "rawSpec": "0.0.3",
-        "spec": "0.0.3",
+        "rawSpec": "0.0.4",
+        "spec": "0.0.4",
         "type": "version"
       },
       "/mnt/47c1b22f-0a79-48eb-ac8d-aac547cce672/home/workspace/projects/bms/bms-backend"
@@ -101,5 +101,5 @@
     "test": "_mocha --compilers js:babel-core/register",
     "watch": "gulp"
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
