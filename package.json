@@ -1,4 +1,53 @@
-{ 
+{
+  "_args": [
+    [
+      {
+        "raw": "loopback-softdelete-2-mixin@0.0.2",
+        "scope": null,
+        "escapedName": "loopback-softdelete-2-mixin",
+        "name": "loopback-softdelete-2-mixin",
+        "rawSpec": "0.0.3",
+        "spec": "0.0.3",
+        "type": "version"
+      },
+      "/mnt/47c1b22f-0a79-48eb-ac8d-aac547cce672/home/workspace/projects/bms/bms-backend"
+    ]
+  ],
+  "_from": "loopback-softdelete-2-mixin@0.0.2",
+  "_id": "loopback-softdelete-2-mixin@0.0.2",
+  "_inCache": true,
+  "_location": "/loopback-softdelete-2-mixin",
+  "_nodeVersion": "4.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/loopback-softdelete-2-mixin-0.0.2.tgz_1465984771799_0.49755120067857206"
+  },
+  "_npmUser": {
+    "name": "b3rew",
+    "email": "brkt13@gmail.com"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "loopback-softdelete-2-mixin@0.0.2",
+    "scope": null,
+    "escapedName": "loopback-softdelete-2-mixin",
+    "name": "loopback-softdelete-2-mixin",
+    "rawSpec": "0.0.2",
+    "spec": "0.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/loopback-softdelete-2-mixin/-/loopback-softdelete-2-mixin-0.0.2.tgz",
+  "_shasum": "268a5cf34a19334de6e1ef834d931847d404cedc",
+  "_shrinkwrap": null,
+  "_spec": "loopback-softdelete-2-mixin@0.0.2",
+  "_where": "/mnt/47c1b22f-0a79-48eb-ac8d-aac547cce672/home/workspace/projects/bms/bms-backend",
+  "bugs": {
+    "url": "https://github.com/b3rew/loopback-softdelete-2-mixin/issues"
+  },
   "dependencies": {
     "babel-runtime": "^6.3.13",
     "debug": "2.x"
@@ -22,7 +71,19 @@
     "loopback-boot": "2.x",
     "mocha": "^2.3.4"
   },
-  
+  "directories": {},
+  "dist": {
+    "shasum": "268a5cf34a19334de6e1ef834d931847d404cedc",
+    "tarball": "https://registry.npmjs.org/loopback-softdelete-2-mixin/-/loopback-softdelete-2-mixin-0.0.2.tgz"
+  },
+  "gitHead": "07653879a3ac7b36bc9bb132de5106a0c0cbb441",
+  "homepage": "https://github.com/b3rew/loopback-softdelete-2-mixin#readme",
+  "maintainers": [
+    {
+      "name": "b3rew",
+      "email": "brkt13@gmail.com"
+    }
+  ],
   "name": "loopback-softdelete-2-mixin",
   "optionalDependencies": {},
   "peerDependencies": {
@@ -40,5 +101,5 @@
     "test": "_mocha --compilers js:babel-core/register",
     "watch": "gulp"
   },
-  "version": "0.0.1"
+  "version": "0.0.3"
 }
